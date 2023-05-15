@@ -1,0 +1,14 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+# excule images in Image folder
+Images/*
+
+#but keep the folder and .gitkeep to simply add images to folder after pull
+!Images/.gitkeep
+
+#ignore .idea folder as it contains user-specific settings for IDE
+.idea/
