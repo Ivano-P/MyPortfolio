@@ -1,14 +1,36 @@
-# ignore ALL .log files
-*.log
+**/HELP.md
+**/target/
+**/!.mvn/wrapper/maven-wrapper.jar
+**/!**/src/main/**/target/
+**/!**/src/test/**/target/
 
-# ignore ALL files in ANY directory named temp
-temp/
+### STS ###
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
 
-# excule images in Image folder
-Images/*
+### IntelliJ IDEA ###
+.idea
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
 
-#but keep the folder and .gitkeep to simply add images to folder after pull
-!Images/.gitkeep
+### NetBeans ###
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+**/build/
+**/!**/src/main/**/build/
+**/!**/src/test/**/build/
 
-#ignore .idea folder as it contains user-specific settings for IDE
-.idea/
+### VS Code ###
+**/.vscode/
+
+.env
