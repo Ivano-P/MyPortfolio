@@ -102,7 +102,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>portfolio-front</finalName>
+		<finalName>my-portfolio</finalName>
 	</build>
 
 </project>

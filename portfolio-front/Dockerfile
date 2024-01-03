@@ -1,4 +1,9 @@
 FROM openjdk:21
+
+WORKDIR /app
+
+COPY target/my-portfolio.jar /app/my-portfolio.jar
+
 EXPOSE 8080
-ADD target/portfolio-front.jar portfolio-front.jar
-ENTRYPOINT ["java", "-jar", "/portfolio-front.jar"]
+
+ENTRYPOINT ["java", "-jar", "/app/my-portfolio.jar"]
